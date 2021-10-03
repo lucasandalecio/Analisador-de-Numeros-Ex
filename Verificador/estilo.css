@@ -1,0 +1,32 @@
+body {
+  background: rgb(124, 124, 250);
+  font: normal 15pt Arial; /*Configura Fonte*/
+}
+
+header {
+  color: white;
+  text-align: center; /*Centralizar o texto*/
+}
+
+section {
+  background: white;
+  border-radius: 10px; /*Arredondar bordas*/
+  padding: 15px; /*Afastar as letras da borda da section*/
+  width: 500px; /*Largura fixa de 500px*/
+  margin: auto; /*Centralizar a section*/
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425); /* deslocamento lateral, deslocamento vertical, espalhamento e cor*/
+}
+
+select#sellist {
+  width: 150px;
+}
+
+input#txtnum {
+  width: 100px;
+}
+
+footer {
+  color: white;
+  text-align: center; /*Centralizar o texto*/
+  font-style: italic;
+}
